@@ -1,0 +1,39 @@
+@use '../../../assets/themes.scss' as *;
+
+.local {
+
+    margin: auto;
+    padding: 6px 0 6px 0;
+    height: fit-content;
+    width: fit-content;
+    grid-template:    
+        "a a" auto
+        "b c" auto / auto auto;
+
+}
+
+.name {
+
+    grid-area: a;
+    width: fit-content;
+
+}
+
+.post-nominal {
+
+    grid-area: b;
+    width: fit-content;
+
+}
+
+.number {
+
+    grid-area: c;
+
+}
+
+
+h6 {
+    margin-left: auto;
+    margin-right: 0;
+}

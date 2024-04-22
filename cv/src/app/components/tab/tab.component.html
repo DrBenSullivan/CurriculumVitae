@@ -1,0 +1,19 @@
+<a 
+    [routerLink]="[page.route]"
+    [queryParams]="{id: page.id}"
+    routerLinkActive="open"
+    [routerLinkActiveOptions]="{ queryParams: 'exact', matrixParams: 'ignored', paths: 'exact', fragment: 'ignored'}"
+    >
+
+        <div class="title"><h5>GO &rarr;</h5></div>
+
+        <div class="title">
+            <app-decorated-text
+                    class="title" 
+                    [text]="page.link"
+                    [decoratedStyle]="{ 'font-size': '0.75rem', 'color': '#3c78d8' }"
+                    [wordStyle]="{ 'font-size': '0.75rem', 'color': '#ffffff' }"
+            ></app-decorated-text>
+        </div>
+
+</a>

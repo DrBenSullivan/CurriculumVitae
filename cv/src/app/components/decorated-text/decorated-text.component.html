@@ -1,0 +1,6 @@
+<span [style]="decoratedStyle">&lcub;</span>
+    <ng-container *ngFor="let word of words; let i = index">
+        <span [style]="decoratedStyle" *ngIf="i !== 0">.</span>
+        <span [style]="wordStyle">{{word}}</span>
+    </ng-container>
+<span [style]="decoratedStyle">&rcub;</span>
