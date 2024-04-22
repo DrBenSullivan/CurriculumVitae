@@ -1,0 +1,61 @@
+[
+    {
+        "id": 0,
+        "route": "/",
+        "link": "About Me",
+        "head": "Hi I'm Ben!",
+        "body": [
+            "I'm a fully-qualified & board-certified General Practitioner based on the Wirral peninsula in North-West England.",
+            "After 12-years' experience in medicine, I'm looking for a new challenge.",
+            "My true passion lies in development. So, that's what I plan on doing.",
+            "I’m a dynamic, highly-adaptable & reliable creative-thinker who applies logic & a methodical approach to problem-solving.",
+            "Curious by nature & ever-hungry for growth, my exemplary independent learning skills allow me to rapidly assimilate new concepts.",
+            "I used the skills that I've rapidly developed to build this site because, well... What better way to show what I can do than a CV in Angular format?",
+            "Also a strong collaborator & communicator, I’m highly competent at seamlessly integrating & thriving in new teams!",
+            "So, if you think I might be a fit in your organisation, please get do get in touch!",
+            "Either way, thanks for visiting my website & do enjoy your stay!"
+        ]
+    },{
+        "id": 1,
+        "route": "/",
+        "link": "Why Dev?",
+        "head": "My Lifelong Passion",
+        "body": [
+            "I've always been passionate about software development!",
+            "At age-9 I built my first from-scratch website which was honestly a pure-HTML monstrosity of a website about skateboarding; but, it was mine & I got to show it off at school which was cool.",
+            "I continued to build websites throughout my formative years. Somewhat embarrassingly, they were mostly for the various gaming teams that I was part of, but with each project came better functionality, aesthetics & code.",
+            "Throughout my professional life I continued to dabble, building small projects purely for the enjoyment of the process.",
+            "Following my GP training, I took a short break from work which provided the perfect opportunity to refocus on development: my neglected passion that I’d always regretted not exploring career options in.",
+            "Seizing the opportunity, I dived head-long into it & immediately found a certain serenity in the challenges it brought: critical-thinking, problem-solving & attention-to-detail.",
+            "These challenges were what I’d always hoped medicine would bring. These challenges that have been steadily displaced by rigid pathway-following, continual apologising for the failures of our government & mindless repetitive tasks.",
+            "While I was building projects, I felt a surprising sense of fulfilment through seeing their end-product & at the rate of my progression.",
+            "It then dawned on me: I needed a career in software development...",
+            "JUST AS I'D ALWAYS SUSPECTED!",
+            "And so, figuring that my skills & experience would be best applied in the MedTech sector, I finally started sharing my projects on GitHub & began gearing them towards the industry... mostly..."
+        ]
+    },{
+        "id": 2,
+        "route": "/",
+        "link": "Why MedTech?", 
+        "head": "Exciting Times for MedTech",
+        "body": [
+            "Despite the career change, I'll always be impassioned by healthcare & ensuring I contribute as much as possible to society.",
+            "Logically then, knowing how the healthcare industry works & its frustrations inside-out, MedTech is the sector I should aim to apply myself!",
+            "I also think that we're entering an exciting, golden age of MedTech.",
+            "Given the last decade's technological advances, the sector is capable of producing lightweight & serverless APIs that can be rapidly developed, deployed & patched, as necessary.",
+            "I think that progressive, dynamic start-ups are the most likely to benefit in this era, while the bloated & complacent organisations who hold the monopolies in the UK will struggle to adapt their services that are invariably in need of complete overhaul."
+        ]
+    },{
+        "id": 3,
+        "route": "/",
+        "link": "Why Hire Me?",
+        "head": "Qualities I'll Bring",
+        "body": [
+            "Given my experience & skills, I’m in an excellent position to provide a highly-valuable link between design & development departments within the MedTech software sector.",
+            "I would facilitate vision-sharing between the departments & bring a further, potentially marketable, gravitas to an already strong product.",
+            "I'm technologically & medically unbiased. Being a generalist has provided broad professional experience & I’m capable of working with products in any clinical area. At this stage of my new career, I’m also relatively tech-agnostic, malleable & primed for moulding into the developer that most benefits my employer!",
+            "While I’m under no illusions regarding my current proficiency, I'm confident in my ability to quickly & efficiently reach the expected standard. Through the trajectory of my projects’ complexity & standard of coding, I hope that my repositories will demonstrate that I am well on course to achieve this!",
+            "In order to make this career-change viable for me & to turbocharge my development, I very aware that I must find an employer with strong culture of support & who values my skills & potential. In return the organisation would receive a diligent, determined, highly-motivated & enthusiastic employee who is also very flexible! If you believe that your organisation fits this description then please do get in touch!"
+        ]
+    }
+]
