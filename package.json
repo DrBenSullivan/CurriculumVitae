@@ -1,0 +1,22 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "My CV as an Angular project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drbensullivan/curriculumvitae.git"
+  },
+  "author": "Dr Benjamin Sullivan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/drbensullivan/curriculumvitae/issues"
+  },
+  "homepage": "https://github.com/drbensullivan/curriculumvitae#readme",
+  "dependencies": {
+    "angular": "^1.8.3"
+  }
+}

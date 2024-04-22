@@ -1,0 +1,55 @@
+@use '../../../assets/themes' as *;
+
+a {
+    background-color: $color-1;
+    display: block;
+    position: relative;
+    width: min-content;
+    padding: 0;
+    height: 2rem;
+    top: -1.25rem;
+    z-index: 4;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 3px 6px 3px 6px;
+    border: solid 3px $color-5;
+    border-top: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: all ease 1s;
+
+    &:hover {
+        top: 0;
+        background-color: $color-4;
+        color: $color-2;
+    }
+
+}
+
+.open {
+    background-color: $color-5;
+    color: $color-2;
+
+    &:hover {
+        top: -1.25rem;
+        background-color: $color-5;
+        color: $color-2;
+        cursor: default;
+    }
+}
+
+h5 {
+    color: inherit;
+    text-align: center;
+}
+
+.title {
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    text-wrap: nowrap;
+    color: $shade-4;
+}

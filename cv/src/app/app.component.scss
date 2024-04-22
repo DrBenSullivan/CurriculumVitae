@@ -1,0 +1,98 @@
+@use '../assets/themes' as *;
+
+.local {
+
+    height: 100vh;
+    padding: 0 12px 0 12px;
+    grid-template:    
+        "a" min-content
+        "b" 1.5rem
+        "c" auto
+        "d" min-content / auto;
+
+}
+
+.header {
+
+    grid-area: a;
+    z-index: 5;
+    height: min-content;
+    background-color: $color-3;
+    border: solid 3px $color-4;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 0;
+
+}
+
+.banner {
+
+    grid-area: b;
+    height: 100%;
+    margin: 0 48px 0 48px;
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+
+}
+
+.main {
+
+    grid-area: c;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+
+.left-window {
+
+    height: auto;
+    flex: 1 1 50%;
+    box-sizing: content-box;
+    margin: 3px 12px 12px 12px;
+    padding: 0;
+    background-color: $shade-3;
+    border: solid 3px $shade-2;
+    overflow: hidden;
+
+}
+
+
+.right-window {
+    height: auto;
+    box-sizing: content-box;
+    flex: 1 1 50%;
+    margin: 3px 12px 12px 12px;
+    padding: 0;
+    background-color: $shade-3;
+    border: solid 3px $shade-2;
+    scrollbar-color: $shade-2 $shade-3;
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.content {
+
+    height: fit-content;
+    text-align: justify;
+    padding: 18px 2px 18px 18px;
+
+}
+
+
+.footer {
+
+    grid-area: d;
+    height: min-content;
+    background-color: $color-3;
+    border-style: solid;
+    border: solid 3px $color-4;
+    border-bottom: 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: $shade-4;
+
+}

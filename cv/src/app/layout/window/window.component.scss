@@ -1,0 +1,51 @@
+@use '../../../assets/themes.scss' as *;
+
+.grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: 
+        "a" 2rem
+        "b" 1fr / 1fr;
+}
+
+.controls {
+    grid-area: a;
+    display: grid;
+    box-sizing: content-box;
+    grid-template:
+        "left mid right" 2rem / 2rem 1fr 2rem;
+}
+
+.left-button {
+    grid-area: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    grid-area: mid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 3px $shade-2;  
+    border-right: solid 3px $shade-2;  
+}
+
+.right-button {
+    grid-area: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    grid-area: b;
+    scrollbar-color: $shade-2 $shade-3;
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 18px 2px 18px 18px;
+    border-top: solid 3px $shade-2;  
+}

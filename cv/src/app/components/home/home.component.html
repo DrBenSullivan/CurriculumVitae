@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <app-decorated-text 
+                [text]="page.head"
+                [decoratedStyle]="{ 'font-size': '1rem', 'color': '#cccccc' }"
+                [wordStyle]="{ 'font-size': '1rem', 'color': '#777777' }"
+            ></app-decorated-text>
+    <p *ngFor="let paragraph of textArray">
+        <br>
+        {{paragraph}}
+    </p>
+</div>
